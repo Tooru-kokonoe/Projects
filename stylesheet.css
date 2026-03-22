@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: #1f2937;
+    color: white;
+    padding: 20px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+header a {
+    color: #ccc;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.hero {
+    background: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 80px;
+}
+
+.hero-text {
+    max-width: 400px;
+}
+
+.hero-text h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.hero-text p {
+    color: #bbb;
+    margin-bottom: 20px;
+}
+
+.hero button {
+    background: #3b82f6;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero-img {
+    width: 400px;
+    height: 200px;
+    background: #777;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    padding: 60px;
+    text-align: center;
+}
+
+.info h2 {
+    margin-bottom: 40px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.card {
+    width: 120px;
+}
+
+.box {
+    width: 120px;
+    height: 120px;
+    border: 3px solid #3b82f6;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.quote {
+    background: #e5e7eb;
+    padding: 80px 0;
+}
+
+.quote-container {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.quote p {
+    font-size: 22px;
+    font-style: italic;
+    color: #374151;
+    line-height: 1.6;
+    text-align: left;
+}
+
+.author {
+    margin-top: 15px;
+    text-align: right;
+    font-weight: bold;
+    color: #111827;
+}
+
+.cta {
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.cta-box {
+    background: #3b82f6;
+    color: white;
+    padding: 30px 60px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+}
+
+.cta button {
+    background: transparent;
+    border: 2px solid white;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background: #1f2937;
+    color: #ccc;
+    text-align: center;
+    padding: 25px;
+    font-size: 14px;
+}
